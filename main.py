@@ -34,7 +34,7 @@ system.add("Generator","Netz",
 
 #und Abnehmer
 system.add("Link",
-                "Wärmepumpe",
+                "Netzeinspeisung",
                 bus0="Elektrizität",
                 bus1="Netz",
                 p_nom=1000,efficiency=0.0,p_nom_extendable=False)
